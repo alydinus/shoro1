@@ -8,7 +8,6 @@ public class Delivery {
     public static final String db_URL  = "jdbc:postgresql://localhost:5432/postgres";
     Delivery() throws SQLException {
         login();
-        options();
     }
     public static void login() throws SQLException {
         System.out.println("Ввведите логин>>>");
